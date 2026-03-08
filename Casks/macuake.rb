@@ -1,6 +1,6 @@
 cask "macuake" do
-  version "0.1.3"
-  sha256 "7bdc898b635113728ea948d85228af7216b4f7aac9b180fe0d4356074e544a87"
+  version "0.1.6"
+  sha256 "38ec55d840ae15943303b504fe5efaf9b90a51f45c3e14d5a42c66aae0f9e8f1"
 
   url "https://github.com/menemy/macuake/releases/download/v#{version}/Macuake.dmg"
   name "Macuake"
