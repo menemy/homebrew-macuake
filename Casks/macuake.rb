@@ -7,7 +7,7 @@ cask "macuake" do
   desc "Drop-down Quake-style terminal for macOS powered by Ghostty"
   homepage "https://macuake.com"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Macuake.app"
 
