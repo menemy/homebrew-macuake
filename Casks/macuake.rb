@@ -1,13 +1,13 @@
 cask "macuake" do
-  version "0.1.3"
-  sha256 "1ed238f5edcd836886cab78750ecf76c7bc29d26dc38c181d838e793a37bfeb7"
+  version "0.2.0"
+  sha256 "0dfb90f17f21354b7af700ce162d31b4b327dc2c4069a9f9aa2ad679eafed89c"
 
   url "https://github.com/menemy/macuake/releases/download/v#{version}/Macuake.dmg"
   name "Macuake"
   desc "Drop-down Quake-style terminal for macOS powered by Ghostty"
   homepage "https://macuake.com"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Macuake.app"
 
